@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Get Your Validation Here!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Get Your Validation Here!</h1>
+  <div id="game-area">
+    <img id="player-avatar" src="avatar.jpg" alt="Your character" width="150">
+
+    <!-- Followers container -->
+    <div id="followers-container"></div>
+
+    <button id="click-btn" class="heart-button">❤️</button>
+    <p id="counter">0 value</p>
+    <p id="title">You're a Nobody</p>
+  </div>
+
+  <div id="pr-area">
+    <h3>PR Team</h3>
+  </div>
+
+  <div id="sellout-tally-left">
+    Sell Outs: <span id="sellout-count">0</span>
+  </div>
+
+  <div id="shop">
+    <h2>Shop</h2>
+    <button id="buy-follower">Buy Followers (cost: 50)</button>
+    <button id="buy-pr">Hire PR Manager (cost: 200)</button>
+    <button id="sellout">Sell Out (cost: 500)</button>
+    <p id="shop-feedback"></p>
+  </div>
+
+  <div id="leaderboard-container">
+    <h2>🏆 Leaderboard</h2>
+    <ul id="leaderboard"></ul>
+  </div>
+
+  <!-- Event bubble notifications -->
+  <div id="event-bubble"></div>
+
+  <div id="logout-message"></div>
+  <div id="logout-section">
+    <button id="logout-btn">Log Off</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
