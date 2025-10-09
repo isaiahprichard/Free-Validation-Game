@@ -250,7 +250,7 @@ function showEventBubble(text) {
 const randomEvents = [
   { text: "You adopted a cute dog 🐶 — followers love it!", followers: 5, value: 50 },
   { text: "You got shadow-banned 😬", followers: -15, value: -100 },
-  { text: "Getty Images posts an awful photo 📸", followers: -8, value: -50 },
+  { text: "Getty Images posts a photo of you 📸", followers: -8, value: -50 },
   { text: "Collab with a major star 🌟", followers: 8, value: 150 },
   { text: "Bought a gorgeous coastal home 🏡", followers: 6, value: 120 },
   { text: "Called an industry plant 🤔", followers: -10, value: -70 },
@@ -497,3 +497,4 @@ function handleLogoutAttempt() {
   
 
 updateDisplay();
+
