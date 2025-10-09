@@ -278,7 +278,7 @@ setInterval(() => {
 // --- Leaderboard ---
 let leaderboard = [
   { name: "Kylie Jenner", value: 300000000 },
-  { name: "Taylor Swift", value: 1000000},
+  { name: "The Pope", value: 1000000},
   { name: "MrBeast", value: 500000 },
   { name: "Charli D’Amelio", value: 40000 },
   { name: "You", value: 0 },
@@ -497,4 +497,5 @@ function handleLogoutAttempt() {
   
 
 updateDisplay();
+
 
